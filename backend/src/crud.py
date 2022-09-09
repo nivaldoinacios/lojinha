@@ -3,6 +3,8 @@
 from datetime import datetime
 
 import database
+import schemas
+import models
 import feedz
 
 # connect to elasticsearch
@@ -12,23 +14,30 @@ timestamp = datetime.now()
 
 
 def create_user(cpf):
-    feedz_obj = feedz.get_user(cpf)
+    feedz_dict = feedz.get_user(cpf)
 
-    feedz_objdict = models.UserBase(feedz_obj)
+    validation_dict = schemas.UserSchema(**feedz_dict)
 
-    user = {'feedz_id': feedz_objdict.employeeId,
-            'employeeId': feedz_objdict.employeeId,
-            'name': feedz_objdict.name,
-            'email': feedz_objdict.email,
-            'cpf': feedz_objdict.cpf,
-            'department': feedz_objdict.department,
+    create_objdict = models.Objdict(validation_dict)
+
+    user_objdict = models.UserBase(create_objdict)
+
+    user = {'employeeId': user_objdict.employeeId,
+            'feedz_id': user_objdict.employeeId,
+            'name': user_objdict.name,
+            'email': user_objdict.email,
+            'cpf': user_objdict.cpf,
+            'department': user_objdict.department,
+            'role': user_objdict.access,
             }
     try:
         res = client.index(index='sandbox-users', id=user['feedz_id'], document=user)
+
+        return res
+
     except Exception as e:
         print(e)
         return e
-    return res
 
 
 # create or update user from Feedz through CPF
@@ -250,13 +259,14 @@ def delete_task(task_id):
 
 
 if __name__ == '__main__':
+    print(create_user('07119811169'))
     # create_user('07119811169')
     # update_user(148748, ['balance'], 1000)
     # create_user(44469900206)
     # print(feedz.getUserBalance(148748))
     # print('get user')
     # print(get_user(148734))
-    print(get_users())
+    # print(get_users())
     # print('user obj')
     # print(UserObject(148734))
 # print('Hello World!')

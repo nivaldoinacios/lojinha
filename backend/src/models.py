@@ -49,10 +49,11 @@ class WalletBase(Objdict):
     #     return f"WalletBase({self.id}, {self.cpf}, {self.email}, {self.feedzcoins})"
 
 
-class UserCreate(Objdict):
+class UserBase(Objdict):
     def __init__(self, feedz_body):
         super().__init__()
         self.employeeId = feedz_body['employeeId']
+        self.feedz_id = self.employeeId
         self.name = feedz_body['name']
         self.email = feedz_body['email']
         self.cpf = feedz_body['cpf']
