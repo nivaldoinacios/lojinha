@@ -28,3 +28,16 @@ async def fetch_user(user_id):
 @app.get("/api/v1/users")
 async def fetch_all_users():
     return crud.get_all_users()
+
+
+# Product
+# Buscar produto especifico
+@app.get("/api/v1/products/{product_id}")
+async def fetch_product(product_id: int):
+    return crud.get_product(product_id)
+
+
+# Listar todos os produtos
+@app.get("/api/v1/products")
+async def fetch_products():
+    return crud.get_products()
