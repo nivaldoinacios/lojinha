@@ -42,12 +42,20 @@ def create_user(cpf):
 
 # create or update user from Feedz through CPF
 def get_user(user_id):
-    """
-    Get specific user data
-    """
     try:
-        res = client.get(index='sandbox-users', id=user_id, refresh=True)['_source']
-        return res
+        es_dict = client.get(index='sandbox-users', id=user_id, refresh=True)['_source']
+        wallet_dict = feedz.get_user_wallet(user_id)
+
+        del wallet_dict['id']
+
+        user_dict = {**es_dict, **wallet_dict}
+
+        create_objdict = models.Objdict(user_dict)
+
+        user_objdict = models.UserBase(create_objdict)
+
+        return user_objdict
+
     except Exception as e:
         print(e)
         return e
