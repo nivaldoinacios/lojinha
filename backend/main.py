@@ -30,6 +30,13 @@ async def fetch_all_users():
     return crud.get_all_users()
 
 
+@app.get("/api/v1/users/{user_id}/wallet")
+async def fetch_user_wallet(user_id):
+    user = crud.get_user(user_id)
+    wallet = user.get_wallet()
+    return wallet
+
+
 # Product
 # Buscar produto especifico
 @app.get("/api/v1/products/{product_id}")
