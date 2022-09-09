@@ -1,11 +1,22 @@
 # Test your FastAPI endpoints
 
-GET http://127.0.0.1:8000/
+# GET all users
+GET http://127.0.0.1:8000/api/v1/users
 Accept: application/json
 
 ###
 
-GET http://127.0.0.1:8000/hello/User
-Accept: application/json
+# POST a new user
+#POST http://127.0.0.1:8000/api/v1/users/?cpf
+#Content-Type: application/json
 
 ###
+
+# GET a user by ID
+#GET http://127.0.0.1:8000/api/v1/users/
+
+###
+
+# GET all products
+GET http://127.0.0.1:8000/api/v1/products
+Accept: application/json

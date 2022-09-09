@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="982491db-c110-4da7-9f54-8d44c1710e25" name="Changes" comment="0.0.3">
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scopes/development.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_main.http" beforeDir="false" afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FastAPI main" />
+        <option value="FastAPI test_main" />
+        <option value="Python Script" />
+        <option value="HTTP Public Environment File" />
+        <option value="HTTP Private Environment File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/backend/main.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/backend/src/crud.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_main.http" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/lojinha-endpoints_1.http" environment="dev" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/lojinha-endpoints_2.http" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="NamedScopeManager">
+    <order>
+      <scope name="development" />
+    </order>
+  </component>
+  <component name="ProjectId" id="2EXDlzJoxfCdSvI8c4y4oWnsmEZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/nivaldo.lima/Desktop/projetos/lojinha/backend/test",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "elasticsearch"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nivaldo.lima\Desktop\projetos\lojinha\backend\test" />
+      <recent name="C:\Users\nivaldo.lima\Desktop\projetos\lojinha" />
+      <recent name="C:\Users\nivaldo.lima\Desktop\projetos\lojinha\backend\src" />
+      <recent name="C:\Users\nivaldo.lima\Desktop\projetos\lojinha\backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nivaldo.lima\Desktop\projetos\lojinha" />
+    </key>
+  </component>
+  <component name="RunManager" selected="FastAPI.lojinha">
+    <configuration name="lojinha-endpoints_2 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/lojinha-endpoints_2.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="database" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="lojinha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/src/database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="schemas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lojinha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/src/schemas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lojinha" type="Python.FastAPI">
+      <option name="file" value="C:\Users\nivaldo.lima\Desktop\projetos\lojinha\backend\main.py" />
+      <module name="lojinha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\nivaldo.lima\Desktop\projetos\projeto2\apiStore\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="FastAPI.lojinha" />
+      <item itemvalue="HTTP Request.lojinha-endpoints_2 | #1" />
+      <item itemvalue="Python.database" />
+      <item itemvalue="Python.schemas" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.lojinha-endpoints_2 | #1" />
+        <item itemvalue="Python.schemas" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="982491db-c110-4da7-9f54-8d44c1710e25" name="Changes" comment="" />
+      <created>1662733190410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662733190410</updated>
+      <workItem from="1662733206005" duration="27300000" />
+    </task>
+    <task id="LOCAL-00001" summary="feedz.py &gt; Fornece funções para acessar e manipular dados da api do feedz. É uma base para esta integração.&#10;&#10;database.py &gt; Fornece funções para a conexão com o banco de dados da aplicação e também fornece funções para acessar e manipular os objetos armazenados no banco.&#10;&#10;models.py &gt; Classes modelo que serão usadas para criar instancias dos objetos.&#10;&#10;schemas.py &gt; modelo de schemas dos objetos para a validação de dados.&#10;&#10;crud.py &gt; operações crud do banco de dados">
+      <created>1662737177024</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662737177024</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feedz.py &gt; Fornece funções para acessar e manipular dados da api do feedz. É uma base para esta integração.&#10;&#10;database.py &gt; Fornece funções para a conexão com o banco de dados da aplicação e também fornece funções para acessar e manipular os objetos armazenados no banco.&#10;&#10;models.py &gt; Classes modelo que serão usadas para criar instancias dos objetos.&#10;&#10;schemas.py &gt; modelo de schemas dos objetos para a validação de dados.&#10;&#10;crud.py &gt; operações crud do banco de dados">
+      <created>1662737213453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662737213453</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feedz.py &gt; Fornece funções para acessar e manipular dados da api do feedz. É uma base para esta integração.&#10;&#10;database.py &gt; Fornece funções para a conexão com o banco de dados da aplicação e também fornece funções para acessar e manipular os objetos armazenados no banco.&#10;&#10;models.py &gt; Classes modelo que serão usadas para criar instancias dos objetos.&#10;&#10;schemas.py &gt; modelo de schemas dos objetos para a validação de dados.&#10;&#10;crud.py &gt; operações crud do banco de dados">
+      <created>1662740517628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662740517628</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implementação de schema e modelo de Usuario.&#10;Implementação de funções crud no objeto Usuaerio&#10;Nova função: create_user.">
+      <created>1662748111665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662748111665</updated>
+    </task>
+    <task id="LOCAL-00005" summary="0.0.2">
+      <created>1662750186162</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662750186162</updated>
+    </task>
+    <task id="LOCAL-00006" summary="0.0.3">
+      <created>1662752753861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662752753861</updated>
+    </task>
+    <task id="LOCAL-00007" summary="0.0.3">
+      <created>1662753141965</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662753141965</updated>
+    </task>
+    <task id="LOCAL-00008" summary="0.0.3">
+      <created>1662755570961</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662755570961</updated>
+    </task>
+    <task id="LOCAL-00009" summary="0.0.3">
+      <created>1662765320533</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662765320533</updated>
+    </task>
+    <task id="LOCAL-00010" summary="0.0.3">
+      <created>1662765720182</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662765720182</updated>
+    </task>
+    <task id="LOCAL-00011" summary="0.0.3">
+      <created>1662766294890</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662766294890</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feedz.py &gt; Fornece funções para acessar e manipular dados da api do feedz. É uma base para esta integração.&#10;&#10;database.py &gt; Fornece funções para a conexão com o banco de dados da aplicação e também fornece funções para acessar e manipular os objetos armazenados no banco.&#10;&#10;models.py &gt; Classes modelo que serão usadas para criar instancias dos objetos.&#10;&#10;schemas.py &gt; modelo de schemas dos objetos para a validação de dados.&#10;&#10;crud.py &gt; operações crud do banco de dados" />
+    <MESSAGE value="Implementação de schema e modelo de Usuario.&#10;Implementação de funções crud no objeto Usuaerio&#10;Nova função: create_user." />
+    <MESSAGE value="0.0.2" />
+    <MESSAGE value="0.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lojinha$models.coverage" NAME="models Coverage Results" MODIFIED="1662752124279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
+    <SUITE FILE_PATH="coverage/lojinha$lojinha.coverage" NAME="lojinha Coverage Results" MODIFIED="1662752022108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/lojinha$feedz.coverage" NAME="feedz Coverage Results" MODIFIED="1662752111452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
+    <SUITE FILE_PATH="coverage/lojinha$database.coverage" NAME="database Coverage Results" MODIFIED="1662752103118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
+    <SUITE FILE_PATH="coverage/lojinha$test.coverage" NAME="test Coverage Results" MODIFIED="1662750619717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/test" />
+    <SUITE FILE_PATH="coverage/lojinha$crud.coverage" NAME="crud Coverage Results" MODIFIED="1662751751809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
+    <SUITE FILE_PATH="coverage/lojinha$main.coverage" NAME="main Coverage Results" MODIFIED="1662750692474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lojinha$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1662751680400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/lojinha$schemas.coverage" NAME="schemas Coverage Results" MODIFIED="1662752170241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
+  </component>
+</project>

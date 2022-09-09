@@ -1,0 +1,118 @@
+GET http://localhost:8000/api/v1/users/148770
+
+<> 2022-09-09T193256.200.json
+
+###
+
+GET http://localhost:8000/api/v1/users
+
+<> 2022-09-09T193155.200.json
+
+###
+
+GET http://localhost:8000/api/v1/products
+
+<> 2022-09-09T193146.200.json
+
+###
+
+GET http://localhost:8000/api/v1/products
+
+<> 2022-09-09T193032.200.json
+
+###
+
+GET http://localhost:8000/api/
+
+<> 2022-09-09T193005.404.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/products
+Accept: application/json
+
+<> 2022-09-09T182904.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/products/4
+
+<> 2022-09-09T182605.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/products/2
+
+<> 2022-09-09T182600.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/products/2
+
+<> 2022-09-09T182441.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/products
+
+<> 2022-09-09T182401.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/products/
+
+<> 2022-09-09T182327.200.json
+
+###
+
+GET http://127.0.0.1:8000
+
+<> 2022-09-09T182211.200.json
+
+###
+
+HEAD http://127.0.0.1:8000
+
+###
+
+GET http://localhost:8000/api/v1/users/148747
+
+<> 2022-09-09T182032.200.json
+
+###
+
+GET http://localhost:8000/api/v1/users/value
+
+<> 2022-09-09T182017.500.txt
+
+###
+
+GET http://127.0.0.1:8000/api/v1/users/148747
+
+<> 2022-09-09T181741.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/users/
+Accept: application/json
+{:
+    "id": 148738
+}:
+
+<> 2022-09-09T181720.400.txt
+
+###
+
+GET http://127.0.0.1:8000/api/v1/users
+Accept: application/json
+
+<> 2022-09-09T181219.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/users
+
+<> 2022-09-09T181201.200.json
+
+###
+

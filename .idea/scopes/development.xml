@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="development" pattern="file[lojinha]:backend/*||file[lojinha]:backend//*||file:main.py||file:test_main.http" />
+</component>
