@@ -2,8 +2,8 @@ from pydantic import BaseModel
 from enum import Enum
 from typing import Optional, List, Dict
 
-import feedz
-import models
+# import feedz
+# import models
 
 
 class AccessType(str, Enum):
@@ -26,12 +26,17 @@ class UserBase(BaseModel):
 
 
 if __name__ == '__main__':
+    # ordem da chamada de construção do objeto
     x = feedz.get_user(44469900206)
-    y = models.Objdict(x)
-    z = models.UserCreate(y)
+    print(x)
+    f = UserBase(**x)
+    print(f.dict())
+    y = models.Objdict(f)
     print(y)
+    z = models.UserCreate(y)
     print(z)
-    # user = UserBase(**z)
+
+    # user = UserBase(**y)
     # print(user)
 
 

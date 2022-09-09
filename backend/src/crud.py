@@ -1,7 +1,9 @@
 # CRUD do banco de dados da API
 # TODO: revisar funções e desmenbrar em funções menores
-from src import database, feedz, schemas
 from datetime import datetime
+
+import database
+import feedz
 
 # connect to elasticsearch
 client = database.Engine()
