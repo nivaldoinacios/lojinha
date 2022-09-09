@@ -2,10 +2,10 @@
 # TODO: revisar funções e desmenbrar em funções menores
 from datetime import datetime
 
-import database
-import schemas
-import models
-import feedz
+import backend.src.database as database
+import backend.src.schemas as schemas
+import backend.src.models as models
+import backend.src.feedz as feedz
 
 # connect to elasticsearch
 client = database.Engine()
@@ -62,7 +62,7 @@ def get_user(user_id):
 
 
 # TODO: aplicar loop em todos as funções de get_ALL que armazenam seus dados em ['_source']
-def get_users():
+def get_all_users():
     """
     Get data from all users
     """

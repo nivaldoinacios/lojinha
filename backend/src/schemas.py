@@ -32,7 +32,7 @@ if __name__ == '__main__':
     # print(x.dict())
     y = models.Objdict(x)  # y
     # print(y)
-    z = models.UserCreate(y)  # z
+    z = models.UserBase(y)  # z
     print(z)
 
 
