@@ -1,6 +1,6 @@
 # import src.feedz as feedz
 from enum import Enum
-import feedz
+from src import feedz
 
 # TODO: Criar modelos para validação de dados, talvez seja necessário
 # renomear o arquivo models.py para schemas.py
