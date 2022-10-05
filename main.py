@@ -1,6 +1,7 @@
 from fastapi import FastAPI
-import database
-import crud
+from src import database
+from src import crud
+
 
 app = FastAPI()
 client = database.Engine()

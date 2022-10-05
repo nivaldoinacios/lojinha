@@ -2,10 +2,10 @@
 # TODO: revisar funções e desmenbrar em funções menores
 from datetime import datetime
 
-import backend.src.database as database
-import backend.src.schemas as schemas
-import backend.src.models as models
-import backend.src.feedz as feedz
+import src.database as database
+import src.schemas as schemas
+import src.models as models
+import src.feedz as feedz
 
 # connect to elasticsearch
 client = database.Engine()
@@ -267,13 +267,13 @@ def delete_task(task_id):
 
 
 if __name__ == '__main__':
-    print(create_user('07119811169'))
+    # print(create_user('07119811169'))
     # create_user('07119811169')
     # update_user(148748, ['balance'], 1000)
     # create_user(44469900206)
     # print(feedz.getUserBalance(148748))
     # print('get user')
-    # print(get_user(148734))
+    print(get_user(148734))
     # print(get_users())
     # print('user obj')
     # print(UserObject(148734))

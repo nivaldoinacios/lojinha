@@ -5,35 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="982491db-c110-4da7-9f54-8d44c1710e25" name="Changes" comment="0.0.3">
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scopes/development.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main.http" beforeDir="false" afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lojinha.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lojinha.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/feedz.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/feedz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/AutoMapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/AutoMapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/data/MOCK_DATA.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/MOCK_DATA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FastAPI main" />
         <option value="FastAPI test_main" />
-        <option value="Python Script" />
         <option value="HTTP Public Environment File" />
         <option value="HTTP Private Environment File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/backend/main.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/backend/src/crud.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/crud.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/database.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/feedz.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/models.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/test_main.http" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="HttpClientSelectedEnvironments">
@@ -60,8 +81,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/nivaldo.lima/Desktop/projetos/lojinha/backend/test",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "C:/Users/nivaldo.lima/Desktop/projetos/lojinha",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -71,9 +92,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\nivaldo.lima\Desktop\projetos\lojinha\backend\test" />
-      <recent name="C:\Users\nivaldo.lima\Desktop\projetos\lojinha" />
       <recent name="C:\Users\nivaldo.lima\Desktop\projetos\lojinha\backend\src" />
+      <recent name="C:\Users\nivaldo.lima\Desktop\projetos\lojinha" />
+      <recent name="C:\Users\nivaldo.lima\Desktop\projetos\lojinha\backend\test" />
       <recent name="C:\Users\nivaldo.lima\Desktop\projetos\lojinha\backend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +102,32 @@
     </key>
   </component>
   <component name="RunManager" selected="FastAPI.lojinha">
-    <configuration name="lojinha-endpoints_2 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/lojinha-endpoints_2.http" requestIdentifier="#1" runType="Run single request">
+    <configuration name="test_main | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test_main.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test_main | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test_main.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="crud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lojinha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/crud.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="database" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -106,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="schemas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lojinha" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,12 +160,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/src/schemas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,13 +174,59 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lojinha" type="Python.FastAPI">
-      <option name="file" value="C:\Users\nivaldo.lima\Desktop\projetos\lojinha\backend\main.py" />
+    <configuration name="schemas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lojinha" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/schemas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="frontend djanjo" type="Python.DjangoServer" factoryName="Django server">
+      <module name="lojinha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="frontend.settings" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\nivaldo.lima\Desktop\projetos\projeto2\apiStore\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lojinha" type="Python.FastAPI">
+      <option name="file" value="C:\Users\nivaldo.lima\Desktop\projetos\lojinha\main.py" />
+      <module name="lojinha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\nivaldo.lima\Desktop\projetos\lojinha\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -143,15 +235,22 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Django Server.frontend djanjo" />
       <item itemvalue="FastAPI.lojinha" />
-      <item itemvalue="HTTP Request.lojinha-endpoints_2 | #1" />
+      <item itemvalue="HTTP Request.test_main | #1" />
+      <item itemvalue="HTTP Request.test_main | #2" />
       <item itemvalue="Python.database" />
+      <item itemvalue="Python.crud" />
+      <item itemvalue="Python.models" />
       <item itemvalue="Python.schemas" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.lojinha-endpoints_2 | #1" />
+        <item itemvalue="HTTP Request.test_main | #2" />
+        <item itemvalue="HTTP Request.test_main | #1" />
+        <item itemvalue="Python.crud" />
         <item itemvalue="Python.schemas" />
+        <item itemvalue="Python.models" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +262,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662733190410</updated>
-      <workItem from="1662733206005" duration="27300000" />
+      <workItem from="1662733206005" duration="31935000" />
+      <workItem from="1662771845744" duration="1888000" />
+      <workItem from="1662981519437" duration="1749000" />
+      <workItem from="1662986930020" duration="5662000" />
+      <workItem from="1662994702184" duration="1209000" />
+      <workItem from="1663084395978" duration="1183000" />
+      <workItem from="1663086065949" duration="5480000" />
+      <workItem from="1663155420658" duration="1629000" />
+      <workItem from="1663158806910" duration="3038000" />
+      <workItem from="1663180354491" duration="2436000" />
+      <workItem from="1663261636990" duration="170000" />
+      <workItem from="1663349204499" duration="5000" />
+      <workItem from="1663349235875" duration="159000" />
+      <workItem from="1663597888609" duration="592000" />
+      <workItem from="1663853195797" duration="2301000" />
+      <workItem from="1663866947074" duration="5239000" />
+      <workItem from="1663881266253" duration="1542000" />
+      <workItem from="1663893371170" duration="2274000" />
+      <workItem from="1663933414988" duration="4968000" />
+      <workItem from="1664367642788" duration="715000" />
+      <workItem from="1664903863953" duration="18000" />
+      <workItem from="1664904805920" duration="4525000" />
+      <workItem from="1664910229888" duration="595000" />
+      <workItem from="1664977543772" duration="2174000" />
     </task>
     <task id="LOCAL-00001" summary="feedz.py &gt; Fornece funções para acessar e manipular dados da api do feedz. É uma base para esta integração.&#10;&#10;database.py &gt; Fornece funções para a conexão com o banco de dados da aplicação e também fornece funções para acessar e manipular os objetos armazenados no banco.&#10;&#10;models.py &gt; Classes modelo que serão usadas para criar instancias dos objetos.&#10;&#10;schemas.py &gt; modelo de schemas dos objetos para a validação de dados.&#10;&#10;crud.py &gt; operações crud do banco de dados">
       <created>1662737177024</created>
@@ -266,15 +388,29 @@
     <MESSAGE value="0.0.3" />
     <option name="LAST_COMMIT_MESSAGE" value="0.0.3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../projeto2/fluxo/df_base.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/lojinha$models.coverage" NAME="models Coverage Results" MODIFIED="1662752124279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
-    <SUITE FILE_PATH="coverage/lojinha$lojinha.coverage" NAME="lojinha Coverage Results" MODIFIED="1662752022108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
-    <SUITE FILE_PATH="coverage/lojinha$feedz.coverage" NAME="feedz Coverage Results" MODIFIED="1662752111452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
-    <SUITE FILE_PATH="coverage/lojinha$database.coverage" NAME="database Coverage Results" MODIFIED="1662752103118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
+    <SUITE FILE_PATH="coverage/lojinha$models.coverage" NAME="models Coverage Results" MODIFIED="1664980308624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/lojinha$lojinha.coverage" NAME="lojinha Coverage Results" MODIFIED="1664979615365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/lojinha$database__1_.coverage" NAME="database (1) Coverage Results" MODIFIED="1664979964479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/lojinha$feedz.coverage" NAME="feedz Coverage Results" MODIFIED="1662993927903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
+    <SUITE FILE_PATH="coverage/lojinha$database.coverage" NAME="database Coverage Results" MODIFIED="1662770219944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
     <SUITE FILE_PATH="coverage/lojinha$test.coverage" NAME="test Coverage Results" MODIFIED="1662750619717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/test" />
-    <SUITE FILE_PATH="coverage/lojinha$crud.coverage" NAME="crud Coverage Results" MODIFIED="1662751751809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
-    <SUITE FILE_PATH="coverage/lojinha$main.coverage" NAME="main Coverage Results" MODIFIED="1662750692474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/lojinha$crud.coverage" NAME="crud Coverage Results" MODIFIED="1664980457017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/lojinha$manage.coverage" NAME="manage Coverage Results" MODIFIED="1662770506830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/cartridge/project_template" />
     <SUITE FILE_PATH="coverage/lojinha$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1662751680400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
-    <SUITE FILE_PATH="coverage/lojinha$schemas.coverage" NAME="schemas Coverage Results" MODIFIED="1662752170241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/src" />
+    <SUITE FILE_PATH="coverage/lojinha$main.coverage" NAME="main Coverage Results" MODIFIED="1662770045150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/lojinha$schemas.coverage" NAME="schemas Coverage Results" MODIFIED="1664980396748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/lojinha$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1662772887703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/frontend" />
   </component>
 </project>

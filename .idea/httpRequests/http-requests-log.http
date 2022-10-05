@@ -1,3 +1,17 @@
+GET http://127.0.0.1:8000/api/v1/products
+Accept: application/json
+
+<> 2022-10-05T113815.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/v1/users
+Accept: application/json
+
+<> 2022-10-05T113758.200.json
+
+###
+
 GET http://localhost:8000/api/v1/users/148770
 
 <> 2022-09-09T193256.200.json

@@ -1,4 +1,4 @@
-from backend.src import crud
+import crud
 
 x = crud.get_user(148736)
 print(

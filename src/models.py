@@ -1,5 +1,6 @@
-import backend.src.feedz as feedz
+# import src.feedz as feedz
 from enum import Enum
+import feedz
 
 # TODO: Criar modelos para validação de dados, talvez seja necessário
 # renomear o arquivo models.py para schemas.py
@@ -133,13 +134,13 @@ class ProductBase(Objdict):
 if __name__ == "__main__":
 
     x = feedz.get_user('44469900206')
-    print(x)
-    # y = Objdict(x)
-    # z = UserCreate(y)
     # print(x)
-    # print(y)
-    # print(z)
-    # user = UserCreate(x)
+    y = Objdict(x)
+    z = UserBase(y)
+    print(x)
+    print(y)
+    print(z)
+    # user = UserBase(x)
     # wallet = WalletBase(feedz.get_user_wallet('148742'))
     # print(user)
     # print(wallet)

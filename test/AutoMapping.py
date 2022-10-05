@@ -1,5 +1,7 @@
 # Cria e mapeia os indexes do banco de dados
-from backend.src import database, feedz, models
+import database
+import models
+import feedz
 
 # connect to elasticsearch
 client = database.Engine()
